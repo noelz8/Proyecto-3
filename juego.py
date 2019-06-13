@@ -162,7 +162,7 @@ class Bullet(pygame.sprite.Sprite):
 
 # Load all game graphics
 player_img = pygame.image.load(path.join( "imagenes/Audi.png")).convert()
-player2_img = pygame.image.load(path.join( "imagenes/Audi.png")).convert()
+player2_img = pygame.image.load(path.join( "imagenes/Black_viper.png")).convert()
 bullet_img = pygame.image.load(path.join("imagenes/shoot.png")).convert()
 background = pygame.image.load(path.join("imagenes/sand.jpg")).convert()
 background_rect = background.get_rect()
@@ -262,9 +262,9 @@ class Canvas:
 
         self.screen.draw(render, (x,y))
 
-    def get_canvas(self):
-        return self.screen
+    #def get_canvas(self):
+        #return self.screen
 
-    def draw_background(self):
-        self.screen.fill((238,182,70))
+##    def draw_background(self):
+        #self.screen.fill((238,182,70))
 
